@@ -1,4 +1,4 @@
-package com.linxd.simplefactory;
+package com.linxd.factorymethod;
 
 /**
  * Created with IntelliJ IDEA.
@@ -9,8 +9,8 @@ package com.linxd.simplefactory;
  */
 public class Client {
     public static void main(String[] args) {
-        Baoma baoma = CarFactory.getBaoma();
-        Benci benci = CarFactory.getBenci();
+        Baoma baoma = (Baoma) new BaomaFactory().createCar();
+        Benci benci = (Benci) new BenciFactory().createCar();
         baoma.run();
         benci.run();
     }
