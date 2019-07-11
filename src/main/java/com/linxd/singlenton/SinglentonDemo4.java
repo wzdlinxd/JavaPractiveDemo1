@@ -5,7 +5,7 @@ package com.linxd.singlenton;
  *
  * @author linxd
  * @date 2019/7/11 16:12
- * Description: 双重检验锁式实现单例模式
+ * Description: 静态内部类实现单例模式
  */
 public class SinglentonDemo4 {
 
