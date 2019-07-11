@@ -30,4 +30,14 @@ public class SinglentonDemoTest {
         System.out.println(b);
         System.out.println(c);
     }
+
+    @Test
+    public void test4() {
+        SinglentonDemo4 a = SinglentonDemo4.getSinglentonDemo4();
+        SinglentonDemo4 b = SinglentonDemo4.getSinglentonDemo4();
+        SinglentonDemo4 c = SinglentonDemo4.getSinglentonDemo4();
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
 }
